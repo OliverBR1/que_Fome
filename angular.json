@@ -3,18 +3,11 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Que_Fomee": {
+    "que_Fomee": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "style": "scss",
-          "standalone": false
-        },
-        "@schematics/angular:directive": {
-          "standalone": false
-        },
-        "@schematics/angular:pipe": {
-          "standalone": false
+          "style": "scss"
         }
       },
       "root": "",
@@ -75,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "Que_Fomee:build:production"
+              "buildTarget": "que_Fomee:build:production"
             },
             "development": {
-              "buildTarget": "Que_Fomee:build:development"
+              "buildTarget": "que_Fomee:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -86,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "Que_Fomee:build"
+            "buildTarget": "que_Fomee:build"
           }
         },
         "test": {
@@ -113,6 +106,6 @@
     }
   },
   "cli": {
-    "analytics": "e4f8a23c-75a2-4da5-acfc-7b6173cebc70"
+    "analytics": "411f29a5-ba03-471a-bc1c-9d85da444ad0"
   }
 }

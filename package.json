@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:Que_Fomee": "node dist/que-fomee/server/server.mjs"
+    "serve:ssr:que_Fomee": "node dist/que-fomee/server/server.mjs"
   },
   "private": true,
   "dependencies": {

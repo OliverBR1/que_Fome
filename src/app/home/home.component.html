@@ -1,10 +1,34 @@
-<header>Que Fomee</header>
-<nav></nav>
-    <aside></aside>
-        <main></main>
-            <article></article>
-            <figure></figure>
+<html lang="en">
+<header>
 
-            <p></p>
-            <section></section>
-            <footer></footer>
+</header>
+<nav>
+  <div class="bg"> <img src="assets/images/Logo.png" class="logo"></div>
+</nav>
+
+<body>
+  <h3>Fab Buttons</h3>
+  <div class="example-button-row">
+    <button mat-fab matTooltip="Primary" color="primary" aria-label="Example fab with a heart icon">
+      <mat-icon>favorite</mat-icon>
+    </button>
+    <button mat-fab matTooltip="Accent" color="accent" aria-label="Example fab with a heart icon">
+      <mat-icon>favorite</mat-icon>
+    </button>
+    <button mat-fab matTooltip="Warn" color="warn" aria-label="Example fab with a heart icon">
+      <mat-icon>favorite</mat-icon>
+    </button>
+    <div matTooltip="Disabled" class="example-disabled">
+      <button mat-fab disabled aria-label="Example fab with a heart icon">
+        <mat-icon>favorite</mat-icon>
+      </button>
+    </div>
+    <a mat-fab matTooltip="Link" routerLink="." aria-label="Example fab with a heart icon">
+      <mat-icon>favorite</mat-icon>
+    </a>
+  </div>
+</body>
+
+<app-home></app-home>
+
+</html>
